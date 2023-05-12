@@ -1,0 +1,29 @@
+<div *ngFor="let experiencia of experienciaList">
+    <div id="expCursos" class="row m-b3">
+        <div class="col-11">
+        
+            <div class="row mb-2">
+                <div class="col-1 text-center ">
+                    <img [src]="experiencia.urlIconoEL" alt="python" width="40" height="40">
+                </div>
+                <div class="col-10 ">
+                    <div class="fs-5">{{experiencia.cargo}}</div>
+                    <div class="text-secondary fs-6" id="tutora">{{experiencia.nombreEmpresa}} - {{experiencia.jornada}}</div>
+                    <div class="text-secondary fw-bold">{{experiencia.fechaInicioEL}} - {{experiencia.fechaFinEL}} </div>
+                    <div class="text-secondary fw-bold">{{experiencia.ubicacion}}</div>
+                    <input type="text" id="inputTutora" class="form-control" style="display: block;" [(ngModel)]="experiencia.cargo">
+                </div>
+            </div>
+        </div>
+        <div class="col-1 text-center">
+            <i class="bi bi-plus-lg" style="cursor:pointer"></i>
+            <br>
+            <i class="bi bi-pencil-fill" style="cursor:pointer">
+            </i>
+            <!-- <i class="bi bi-pencil-fill" style="cursor:pointer" onclick="showInput1()"> </i>-->
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="expCursos">
+            <i class="bi bi-trash-fill"></i>
+            </a>
+        </div>
+    </div>
+    

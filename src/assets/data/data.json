@@ -1,0 +1,77 @@
+{
+	"name": "Tatiana Velasquez",
+	"backImage": "https://mtevq.github.io/Codigo-Fuente-del-Proyecto-Final-Frontend-est-tico/images/fondo.png",
+	"image": "https://mtevq.github.io/Codigo-Fuente-del-Proyecto-Final-Frontend-est-tico/images/perfil.png",
+	"position": "Estudiante Universitaria",
+    "url": "#"
+	,
+	"ubication": "Salta - Argentina",
+	"about": "Estudiante, modelo y animadora de fiestas",
+	"experience": [{
+		"position": "Tutora",
+		"company": "Python",
+		"img": "https://mtevq.github.io/Codigo-Fuente-del-Proyecto-Final-Frontend-est-tico/images/milProgPython.png",
+		"mode": "Jornada parcial",
+		"start": "agos 2022",
+		"end": "dic 2022",
+		"timeElapsed": "5 meses",
+        "ubication": "Salta y departamentos de la provincia - Argentina"
+	}],
+	"education": [{
+			"school": "UNSa",
+			"title": "Estudiante",
+			"img": "https://mtevq.github.io/Codigo-Fuente-del-Proyecto-Final-Frontend-est-tico/images/UNSa.png",
+			"career": "Licenciatura en Administracion de Empresas",
+			"score": 0,
+			"start": "2017",
+			"end": "actualidad"
+		},
+		{
+			"school": "UNSa - Gob de Salta - Academia CIMNE IBER",
+			"title": "Curso",
+			"img": "https://mtevq.github.io/Codigo-Fuente-del-Proyecto-Final-Frontend-est-tico/images/milProgJava.png",
+			"career": "Curso introductorio a la programacion Java",
+			"score": 0,
+			"start": "mar 2022",
+			"end": "jul 2022"
+		},
+		{
+			"school": "UNSa - Gob de Salta - Academia CIMNE IBER",
+			"title": "Curso",
+			"img": "https://mtevq.github.io/Codigo-Fuente-del-Proyecto-Final-Frontend-est-tico/images/milProgPython.png",
+			"career": "Curso introductorio a la programacion Python",
+			"score": 0,
+			"start": "agos 2022",
+			"end": "dic 2022"
+		}
+	],
+	"aptitudes": [{
+			"name": "Resolución de problemas",
+			"progress": 95,
+			"confirms": 2,
+			"confirmsNames": [{
+				"name": "Mayra Tatiana Elizabeth Velasquez"
+			}]
+		},
+		{
+			"name": "Capacidad de adaptabilidad",
+			"progress": 95,
+			"confirms": 3,
+			"confirmsNames": [{
+				"name": "Mayra Tatiana Elizabeth Velasquez"
+			}]
+		}
+	],
+	"projects": [
+		{
+			"name":"Cinemar",
+			"description":"Desarrollo de un proyecto con las bases introductorias de Java"
+		},
+		{
+			"name":"Supermark",
+			"description":"Desarrollo de un proyecto con las bases introductorias de Python"
+		}
+	]
+
+
+}

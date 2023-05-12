@@ -1,0 +1,156 @@
+ <!-- cabecera -->
+ <app-cabecera></app-cabecera>
+
+<!-- encabezado -->
+<!--<app-encabezado></app-encabezado>-->
+<app-encabezado-api></app-encabezado-api>
+
+<!-- acerda de -->
+<!--<app-acerca-de></app-acerca-de>-->
+<app-acerca-de-api></app-acerca-de-api>
+
+<!-- experiencias y educaciones -->
+<div class="m-2 p-3 border border-dark rounded-3">
+  <div class="fs-4 my-2">Experiencia</div>
+
+  <!-- experiencias en cursos-->
+  <!--<app-experiencia></app-experiencia>-->
+  <app-experiencia-api></app-experiencia-api>
+
+  <!-- educación UNSa  -->
+  <div class="fs-4 my-2">Educación</div>
+
+   <!--<app-educacion></app-educacion>-->
+    <app-educacion-api></app-educacion-api>
+</div>
+
+
+<!-- aptitudes -->
+<!-- <app-aptitudes></app-aptitudes>-->
+<app-aptitudes-api></app-aptitudes-api>
+
+<!-- proyectos -->
+<!--<app-proyectos></app-proyectos> -->
+<app-proyectos-api></app-proyectos-api>
+
+<!-- modal eliminación -->
+
+<div class="modal modal-sm fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Eliminar Experiencia</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="mb-3">
+              ¿Desea eliminar la experiencia?
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary" onclick="eliminarItem('expCursos');" >Eliminar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal modal-sm fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel1">Eliminar Educacion</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <div class="mb-3">
+                ¿Desea eliminar esta educacion?
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-primary" onclick="eliminarItem1('Educ1');" >Eliminar</button>
+          </div>
+        </div>
+      </div>
+</div>      
+
+<div class="modal modal-sm fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel2">Eliminar Educacion</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <div class="mb-3">
+                  ¿Desea eliminar esta educacion?
+              </div>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-primary" onclick="eliminarItem2('Educ2');" >Eliminar</button>
+          </div>
+      </div>
+  </div>
+</div>   
+
+<div class="modal modal-sm fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel3">Eliminar Educacion</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <div class="mb-3">
+                 ¿Desea eliminar esta educacion?
+              </div>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-primary" onclick="eliminarItem3('Educ3');" >Eliminar</button>
+           </div>
+      </div>
+   </div>
+</div> 
+
+<div class="modal modal-sm fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel4">Eliminar Proyecto</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="mb-3">
+            ¿Desea eliminar este proyecto?
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary" onclick="eliminarItem4('Proy1');" >Eliminar</button>
+      </div>
+    </div>
+  </div>
+</div>   
+
+<div class="modal modal-sm fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel5">Eliminar Aptitud</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="mb-3">
+            ¿Desea eliminar esta aptitud?
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary" onclick="eliminarItem5('Apti1');" >Eliminar</button>
+      </div>
+    </div>
+  </div>
+</div>

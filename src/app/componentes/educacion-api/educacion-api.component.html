@@ -1,0 +1,29 @@
+<div *ngFor="let Educacion of educacionList">
+    <div id="Educ1" class="row mb-3">
+        <div class="col-11">
+        
+            <div class="row mb-2">        
+                <div class="col-1 text-center ">
+                    <img [src]="Educacion.urlIcono" width="60">
+                </div>
+                <div class="col-10 ">
+                    <div class="fs-5">{{Educacion.nombreInstitucion}}</div>
+                    <div class="text-secondary fs-6" id="unsa">{{Educacion.titulo}} </div>
+                    <div class="text-secondary fw-bold">{{Educacion.fechaInicio}} - {{Educacion.fechaFin}}</div>
+                    <input type="text" id="inputUNSa" class="form-control" style="display: block;" [(ngModel)]="Educacion.titulo">
+                </div>
+            </div> 
+        </div>
+        <div class="col-1 text-center">
+            <i class="bi bi-plus-lg" style="cursor:pointer"></i>
+            <br>
+            <i class="bi bi-pencil-fill" style="cursor:pointer">
+            </i>
+            <!-- <i class="bi bi-pencil-fill" style="cursor:pointer" onclick="showInput2()">
+            </i>-->
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="Educ1">
+            <i class="bi bi-trash-fill"></i>
+            </a> 
+        </div>
+    </div>  
+    
